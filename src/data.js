@@ -1,4 +1,4 @@
-[ 
+const data = [ 
     {
         "S.NO": 1,
         "SUPPLIER": " SHREE HANUMAN STEELS & STRUCTURES P LTD.",
@@ -4980,3 +4980,5 @@
         "RATE": 1006
     }
 ]
+ 
+export default data
