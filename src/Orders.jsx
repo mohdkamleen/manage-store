@@ -5024,7 +5024,7 @@ export default function Orders() {
         />
       </Space>
 
-      <Table dataSource={filteredOrders} columns={columns} rowKey="id" bordered />
+      <Table scroll={{ x: 'max-content' }} dataSource={filteredOrders} columns={columns} rowKey="id" bordered />
     </div>
   );
 }
